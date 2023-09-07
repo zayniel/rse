@@ -14,6 +14,7 @@ export default function NavBar() {
             w='full'
             bgColor='#f0f0f0'
             position='absolute'
+            color='black'
         >
             <HStack>
                 <Image
