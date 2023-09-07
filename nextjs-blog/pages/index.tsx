@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import * as React from 'react';
 import NavBar from '../components/NavBar'
+import Slideshow from '../components/Slideshow'
 import {
   ChakraProvider,
   extendBaseTheme,
@@ -24,9 +25,9 @@ const theme = extendBaseTheme({
         },
         'sub-title': {
           fontFamily: 'Blinker'
-        }
+        },
       }
-    }
+    },
   },
   breakpoints: {
     sm: '200px',
@@ -38,7 +39,8 @@ const theme = extendBaseTheme({
 export default function Home() {
   return (
     <ChakraProvider theme={theme}>
-      <NavBar></NavBar>
+      <NavBar/>
+      <Slideshow/>
     </ChakraProvider>
   );
 }
