@@ -39,6 +39,7 @@ const theme = extendBaseTheme({
 export default function Home() {
   return (
     <ChakraProvider theme={theme}>
+      <div className='loader'></div>
       <NavBar/>
       <Slideshow/>
       <div className='main-container'>
@@ -51,11 +52,13 @@ export default function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         />
         </div>
+        <div className='bio-container'>
         <div className='bio-header'>
           Who we are
         </div>
         <div className='bio-body'>
         We are the Robotic Systems Enterprise at Michigan Tech: an industry-driven enterprise that focuses on solving real-world industrial and engineering problems for our sponsors. Our goal is for members to gain industry knowledge, interdisciplinary teamwork, and communication skills. From developing sensor systems for an autonomous vehicle to designing field research robots that navigate the Tech Trails, RSE projects span a wide variety of interests.
+        </div>
         </div>
       </div>
     </ChakraProvider>
