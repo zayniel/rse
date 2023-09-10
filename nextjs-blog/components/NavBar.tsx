@@ -25,7 +25,7 @@ export default function NavBar() {
                     mt='16px'
                 />
                 <Stack spacing={0}>
-                    <Text color='black' variant='title' fontSize='40px' mt='10px' mb='-16px'>Robotic Systems Enterprise</Text>
+                    <Text color='black' variant='title' fontSize='40px' mt='16px' mb='-16px'>Robotic Systems Enterprise</Text>
                     <Text color='black' variant='sub-title' fontSize='26px'>Michigan Technological University</Text>
                 </Stack>
             </HStack>
@@ -37,9 +37,8 @@ export default function NavBar() {
                 spacing='70px'
             >
                 <Button 
-                    bgColor='#ff6600' 
-                    color='white'
-                    variant='solid' 
+                    colorScheme='orange'
+                    variant='ghost' 
                     borderRadius='80px'
                     w='130px'
                     h='50px'

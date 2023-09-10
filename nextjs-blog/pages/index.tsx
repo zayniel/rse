@@ -6,7 +6,7 @@ import {
   ChakraProvider,
   extendBaseTheme,
   Box,
-} from '@chakra-ui/react';
+} from '@chakra-ui/react'
 import "@fontsource/blinker"
 
 const theme = extendBaseTheme({

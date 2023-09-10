@@ -16,7 +16,68 @@ body {
     Helvetica Neue,
     sans-serif;
 
-    background-color: white;
+    background-color: grey;
+}
+
+.container {
+  padding-top: 120px;
+}
+
+.slider-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  transition: 1.2s;
+  overflow:hidden;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+.slider-left {
+  display: flex;
+  position: absolute;
+  left: 3rem;
+  top: 48%;
+}
+
+.slider-right {
+  display: flex;
+  position: absolute;
+  right: 3rem;
+  top: 48%;
 }
 
 a {
@@ -45,7 +106,13 @@ ul {
   list-style: none;
 }
 
-button {
-  padding: 0.5rem 1rem;
-  font-weight: bold;
+.slider-arrow {
+  font-size: 3vh;
+  color: white;
+  opacity: 0.7;
+  transition: opacity ease 250ms;
+}
+
+.slider-arrow:hover {
+  opacity: 1;
 }
