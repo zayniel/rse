@@ -1,12 +1,6 @@
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
-
-
 export default function NavBar() {
-
-    function plusSlides(n) {
-
-    }
 
     return (
         <section className='container'>
@@ -34,6 +28,9 @@ export default function NavBar() {
                     <button className='slider-arrow' /*onClick={plusDivs(+1)}*/>
                         <BsFillArrowRightCircleFill/>
                     </button>                
+                </div>
+                <div className='tagline'>
+                    Autonomy at the End of the Earth.
                 </div>
             </div>
         </section>
