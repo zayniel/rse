@@ -33,13 +33,14 @@ body {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  transition: 1.2s;
+  transition: 1.5s;
   overflow:hidden;
 }
 
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
+  max-height: 530px;
   object-fit: cover;
 }
 
@@ -138,21 +139,23 @@ ul {
 .bio-header {
   font-family: 'Blinker';
   font-size: 54px;
-  left: 50%;
+  left: 45%;
   position: absolute;
+  color: black;
 }
 
 .bio-body {
   font-family: 'Blinker';
   font-size: 26px;
-  left: 50%;
+  left: 45%;
   margin-top: 80px;
-  padding-right: 30px;
+  padding-right: 50px;
   position: absolute;
+  color: black;
 }
 
 .video-container {
-  padding-left: 6%;
+  padding-left: 160px;
   padding-top: 20px;
   padding-bottom: 40px;
 }
