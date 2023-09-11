@@ -89,8 +89,9 @@ body {
   font-weight: bold;
   text-shadow: 0 4px 15px black;
   color: white;
-  top: 30%;
-  left: 24%;
+  top: 38%;
+  left: 20%;
+  right: 10%;
   z-index: 1;
 }
 
