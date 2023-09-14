@@ -1,4 +1,5 @@
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { Text, Center, } from '@chakra-ui/react'
 
 export default function NavBar() {
 
@@ -11,6 +12,11 @@ export default function NavBar() {
                     <img id='slide-3' src='./looking-at-monitor.jpg' alt='placeholder2'/>
                     <img id='slide-4' src='./car-front.jpg' alt='placeholder3'/>
                     <img id='slide-5' src='./logan-chaz.jpg' alt='placeholder4'/>
+                </div>
+                <div className='tagline-container'>
+                    <div className='tagline'>
+                        Autonomy at the End of the Earth.
+                    </div>
                 </div>
                 <div className='slider-nav'>
                     <a href='#slide-1'></a>
@@ -29,9 +35,7 @@ export default function NavBar() {
                         <BsFillArrowRightCircleFill/>
                     </button>                
                 </div>
-                <div className='tagline'>
-                    Autonomy at the End of the Earth.
-                </div>
+                
             </div>
         </section>
     )

@@ -81,17 +81,20 @@ body {
   top: 48%;
 }
 
+.tagline-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .tagline {
   position: absolute;
-  display: flex;
-  font-size: 80px;
+  font-size: 5vw;
   font-family: 'Blinker';
   font-weight: bold;
   text-shadow: 0 4px 15px black;
   color: white;
   top: 38%;
-  left: 20%;
-  right: 10%;
   z-index: 1;
 }
 
@@ -134,13 +137,21 @@ ul {
 
 .main-container {
   display: flex;
-  margin-top: 20px;
+  align-items: center;
+  margin: 50px;
+}
+
+.bio-container {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .bio-header {
   font-family: 'Blinker';
   font-size: 54px;
-  left: 45%;
+  margin-bottom: 300px;
   position: absolute;
   color: black;
   transition: ease;
@@ -150,9 +161,7 @@ ul {
 .bio-body {
   font-family: 'Blinker';
   font-size: 26px;
-  left: 45%;
-  margin-top: 80px;
-  padding-right: 50px;
+  margin-top: 50px;
   position: absolute;
   color: black;
   transition: ease;
@@ -180,7 +189,5 @@ ul {
 }
 
 .video-container {
-  padding-left: 160px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  
 }
