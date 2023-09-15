@@ -33,8 +33,9 @@ body {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  transition: 2s;
+  transition: 1s;
   overflow:hidden;
+  height: 24vw;
 }
 
 .slider img {
@@ -55,8 +56,8 @@ body {
 }
 
 .slider-nav a {
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 0.7vw;
+  height: 0.7vw;
   border-radius: 50%;
   background-color: #fff;
   opacity: 0.6;
@@ -70,14 +71,14 @@ body {
 .slider-left {
   display: flex;
   position: absolute;
-  left: 3rem;
+  left: 5vw;
   top: 48%;
 }
 
 .slider-right {
   display: flex;
   position: absolute;
-  right: 3rem;
+  right: 5vw;
   top: 48%;
 }
 
@@ -94,7 +95,7 @@ body {
   font-weight: bold;
   text-shadow: 0 4px 15px black;
   color: white;
-  top: 38%;
+  top: 35%;
   z-index: 1;
 }
 
@@ -114,7 +115,6 @@ img {
 
 h1,
 h2,
-p,
 ul {
   margin: 0;
 }
@@ -137,38 +137,67 @@ ul {
 
 .main-container {
   display: flex;
-  align-items: center;
-  margin: 50px;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bio-container {
   display: flex;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: -10px;
+  color: black;
+  font-family: 'Blinker';
   flex-direction: column;
+  align-items: flex-start;
+  transition: ease;
+  animation: 2s slide-up;
+}
+
+h4 {
+  font-size: 3vw;
+}
+
+hr.new1 {
+  border: 1px solid #ffb000;
+  margin-bottom: 10px;
+  width: 15vw;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+iframe {
+  height: 18vw;
+  width: 32vw;
+}
+
+.footer {
+  height: 70px;
+  bottom: 0;
+  background-color: #ff5300;
+  display: flex;
+  align-items: center;
   justify-content: center;
-}
-
-.bio-header {
+  color: white;
   font-family: 'Blinker';
-  font-size: 54px;
-  margin-bottom: 300px;
-  position: absolute;
-  color: black;
-  transition: ease;
-  animation: 2s slide-up-header;
+  font-size: 1.5rem;
 }
 
-.bio-body {
-  font-family: 'Blinker';
-  font-size: 26px;
-  margin-top: 50px;
-  position: absolute;
-  color: black;
-  transition: ease;
-  animation: 2s slide-up-body;
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@keyframes slide-up-header {
+@keyframes slide-up {
   from { 
     opacity: 0; 
     margin-top: 50px 
@@ -176,18 +205,4 @@ ul {
   to { 
     opacity: 1; 
     margin-top: 0px }
-}
-
-@keyframes slide-up-body {
-  from { 
-    opacity: 0; 
-    margin-top: 130px;
-  }
-  to { 
-    opacity: 1; 
-    margin-top: 80px }
-}
-
-.video-container {
-  
 }
