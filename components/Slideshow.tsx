@@ -25,17 +25,17 @@ export default function NavBar() {
                     <a href='#slide-4'></a>
                     <a href='#slide-5'></a>
                 </div>
+                {/*
                 <div className='slider-left'>
-                    <button className='slider-arrow' /*onClick={() => this.plusSlides(-1)}*/>
+                    <button className='slider-arrow'}/>
                         <BsFillArrowLeftCircleFill/>
                     </button>
                 </div>
                 <div className='slider-right'>
-                    <button className='slider-arrow' /*onClick={plusDivs(+1)}*/>
+                    <button className='slider-arrow'}>
                         <BsFillArrowRightCircleFill/>
                     </button>                
-                </div>
-                
+                </div>*/}
             </div>
         </section>
     )

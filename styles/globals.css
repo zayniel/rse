@@ -36,11 +36,11 @@ body {
   }
 
   .slider-nav a {
-    width: 2vw;
-    height: 2vw;
+    width: 2.5vw;
+    height: 2.5vw;
     border-radius: 50%;
     background-color: #fff;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: opacity ease 250ms;
   }
 
@@ -114,7 +114,7 @@ body {
 
   .tagline {
     position: absolute;
-    font-size: 8vw;
+    font-size: 8.5vw;
     font-family: 'Blinker';
     font-weight: bold;
     text-shadow: 0 1px 20px black;
@@ -148,7 +148,7 @@ body {
     height: 0.8vw;
     border-radius: 50%;
     background-color: #fff;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: opacity ease 250ms;
   }
 

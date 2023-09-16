@@ -4,12 +4,12 @@ import NavBar from '../components/NavBar'
 import Slideshow from '../components/Slideshow'
 import {
   ChakraProvider,
-  extendBaseTheme,
+  extendTheme,
   Box,
 } from '@chakra-ui/react'
 import "@fontsource/blinker"
 
-const theme = extendBaseTheme({
+const theme = extendTheme({
   styles: {
     global: (props) => ({
       body: {

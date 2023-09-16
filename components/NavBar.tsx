@@ -43,18 +43,18 @@ export default function NavBar() {
                 top='38px'
                 visibility={{base: 'hidden', sm:'visible', md:'visible', lg:'visible'}}
                 fontSize={{ sm: '24px', md: '26px', lg: '30px'}}
-                spacing={{sm: '50px', md: '60px', lg: '70px'}}
+                spacing={{sm: '30px', md: '30px', lg: '50px'}}
             >
-                <Button fontFamily='Blinker'>Home</Button>
-                <Button fontFamily='Blinker'>AutoDrive II</Button>
-                <Button fontFamily='Blinker'>Projects</Button>
-                <Button fontFamily='Blinker'>Teams</Button>
-                <Button fontFamily='Blinker'>Contact Us</Button>
+                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Home</Button>
+                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='160px' size='xl' fontFamily='Blinker'>AutoDrive II</Button>
+                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='120px' size='xl' fontFamily='Blinker'>Projects</Button>
+                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Teams</Button>
+                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='140px' size='xl' fontFamily='Blinker'>Contact Us</Button>
             </HStack>
             <Menu>
                 <MenuButton
-                    right={{base: '30px', xs: '50px'}}
-                    top={{base: '29px', xs: '49px'}}
+                    right={{base: '20px', xs: '40px'}}
+                    top={{base: '20px', xs: '40px'}}
                     as={IconButton}
                     aria-label='Menu'
                     icon={<HamburgerIcon/>}
@@ -63,20 +63,20 @@ export default function NavBar() {
                     visibility={{base: 'visible', sm:'hidden', md:'hidden', lg:'hidden'}}
                     fontSize='2xl'
                 />
-                <MenuList fontFamily='Blinker' fontSize='24px' paddingY='10px' paddingX='20px' bgColor='white' borderRadius='lg'>
-                    <MenuItem my='2px'>
+                <MenuList fontFamily='Blinker' fontSize='24px' paddingY='10px' paddingX='10px' bgColor='white' borderRadius='lg'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
                         Home
                     </MenuItem>
-                    <MenuItem my='2px'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
                         AutoDrive II
                     </MenuItem>
-                    <MenuItem my='2px'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
                         Projects
                     </MenuItem>
-                    <MenuItem my='2px'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
                         Teams
                     </MenuItem>
-                    <MenuItem my='2px'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
                         Contact Us
                     </MenuItem>
                 </MenuList>
