@@ -32,7 +32,7 @@ body {
     scroll-behavior: smooth;
     transition: 1s;
     overflow:hidden;
-    height: 38vw;
+    height: 50vw;
   }
 
   .slider-arrow {
@@ -101,6 +101,20 @@ body {
   iframe {
     height: 45vw;
     width: 80vw;
+  }
+
+  .tagline {
+    position: absolute;
+    font-size: 8vw;
+    font-family: 'Blinker';
+    font-weight: bold;
+    text-shadow: 0 4px 15px black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    top: 26%;
+    z-index: 1;
   }
 }
 
@@ -183,6 +197,17 @@ body {
     height: 18vw;
     width: 32vw;
   }
+
+  .tagline {
+    position: absolute;
+    font-size: 5vw;
+    font-family: 'Blinker';
+    font-weight: bold;
+    text-shadow: 0 4px 15px black;
+    color: white;
+    top: 35%;
+    z-index: 1;
+  }
 }
 
 .slider-wrapper {
@@ -238,17 +263,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-}
-
-.tagline {
-  position: absolute;
-  font-size: 5vw;
-  font-family: 'Blinker';
-  font-weight: bold;
-  text-shadow: 0 4px 15px black;
-  color: white;
-  top: 35%;
-  z-index: 1;
 }
 
 a {
