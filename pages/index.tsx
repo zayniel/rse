@@ -48,6 +48,7 @@ export default function Home() {
           src="https://www.youtube.com/embed/f-c_Q8Ztvnw" 
           title="Autodrive Challenge II Year 2 Highlights" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowFullScreen
         />
         </div>
         <div className='bio-container'>

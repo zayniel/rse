@@ -9,6 +9,8 @@ import {
     Menu,
     MenuButton,
     IconButton,
+    MenuList,
+    MenuItem,
 } from '@chakra-ui/react'
 
 export default function NavBar() {
@@ -19,6 +21,7 @@ export default function NavBar() {
             bgColor='#f0f0f0'
             position='absolute'
             color='black'
+            zIndex={'dropdown'}
         >
             <HStack>
                 <Image
@@ -59,6 +62,23 @@ export default function NavBar() {
                     position='absolute'
                     visibility={{base: 'visible', sm:'hidden', md:'hidden', lg:'hidden'}}
                 />
+                <MenuList fontFamily='Blinker' fontSize='24px' paddingY='10px' paddingX='20px' bgColor='white' borderRadius='lg'>
+                    <MenuItem my='2px'>
+                        Home
+                    </MenuItem>
+                    <MenuItem my='2px'>
+                        AutoDrive II
+                    </MenuItem>
+                    <MenuItem my='2px'>
+                        Projects
+                    </MenuItem>
+                    <MenuItem my='2px'>
+                        Teams
+                    </MenuItem>
+                    <MenuItem my='2px'>
+                        Contact Us
+                    </MenuItem>
+                </MenuList>
             </Menu>
         </Box>
     )
