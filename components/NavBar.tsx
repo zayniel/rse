@@ -14,7 +14,7 @@ import {
 export default function NavBar() {
     return (
         <Box
-            h='120px'
+            h={{base: '80px', xs: '120px'}}
             w='full'
             bgColor='#f0f0f0'
             position='absolute'
@@ -22,15 +22,17 @@ export default function NavBar() {
         >
             <HStack>
                 <Image
-                    src='./logo.png'
-                    h={{base:'50px', xs: '81px', sm: '81px', md:'81px', lg:'81px'}}
-                    ml={{base:'20px', xs: '40px', sm: '40px', md: '40px', lg:'40px'}}
-                    mt={{base: '34px', xs:'16px', sm: '16px'}}
+                    src='./logo-title.png'
+                    h={{base:'60px', xs: '100px'}}
+                    ml={{base:'10px', xs: '30px'}}
+                    mt={{base: '10px', xs:'10px'}}
                 />
+                {/*
                 <Stack spacing={0}>
                     <Text color='black' variant='title' fontSize={{base:'20px', xs:'28px', sm: '28px', md: '34px', lg: '40px'}} mt={{base: '30px', xs:'16px'}} mb={{base:'-10px', xs:'-16px', sm:'-16px', md:'-16px', lg:'-16px'}}>Robotic Systems Enterprise</Text>
                     <Text color='black' variant='sub-title' fontSize={{base:'16px', xs:'20px', sm: '22px', md: '24px', lg: '26px'}}>Michigan Technological University</Text>
                 </Stack>
+                */}
             </HStack>
             <HStack
                 position='absolute'
@@ -48,13 +50,13 @@ export default function NavBar() {
             </HStack>
             <Menu>
                 <MenuButton
+                    right={{base: '30px', xs: '50px'}}
+                    top={{base: '32px', xs: '52px'}}
                     as={IconButton}
                     aria-label='Menu'
                     icon={<HamburgerIcon/>}
                     variant='outline'
                     position='absolute'
-                    right='50px'
-                    top='50px'
                     visibility={{base: 'visible', sm:'hidden', md:'hidden', lg:'hidden'}}
                 />
             </Menu>

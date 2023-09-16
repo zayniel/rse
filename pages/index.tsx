@@ -54,6 +54,7 @@ export default function Home() {
           <h4><b>Who we are</b></h4>
           <hr className='new1'></hr>
           <p>We are the Robotic Systems Enterprise at Michigan Tech: an industry-driven enterprise that focuses on solving real-world industrial and engineering problems for our sponsors. Our goal is for members to gain industry knowledge, interdisciplinary teamwork, and communication skills. From developing sensor systems for an autonomous vehicle to designing field research robots that navigate the Tech Trails, RSE projects span a wide variety of interests.</p>
+          <hr className='new2'></hr>
         </div>
       </div>
       <div className='footer'>
