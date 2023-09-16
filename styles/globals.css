@@ -117,10 +117,10 @@ body {
     font-size: 8vw;
     font-family: 'Blinker';
     font-weight: bold;
-    text-shadow: 0 4px 20px black;
+    text-shadow: 0 2px 10px black;
     color: white;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     text-align: center;
     top: 28%;
     z-index: 1;
