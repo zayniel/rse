@@ -117,12 +117,12 @@ body {
     font-size: 8vw;
     font-family: 'Blinker';
     font-weight: bold;
-    text-shadow: 0 4px 10px black;
+    text-shadow: 0 4px 20px black;
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20vw;
+    padding-right: 20vw;
     text-align: center;
-    top: 26%;
+    top: 28%;
     z-index: 1;
   }
 }
