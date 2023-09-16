@@ -54,13 +54,14 @@ export default function NavBar() {
             <Menu>
                 <MenuButton
                     right={{base: '30px', xs: '50px'}}
-                    top={{base: '32px', xs: '52px'}}
+                    top={{base: '29px', xs: '49px'}}
                     as={IconButton}
                     aria-label='Menu'
                     icon={<HamburgerIcon/>}
                     variant='outline'
                     position='absolute'
                     visibility={{base: 'visible', sm:'hidden', md:'hidden', lg:'hidden'}}
+                    fontSize='2xl'
                 />
                 <MenuList fontFamily='Blinker' fontSize='24px' paddingY='10px' paddingX='20px' bgColor='white' borderRadius='lg'>
                     <MenuItem my='2px'>
