@@ -52,15 +52,39 @@ body {
   }
 
   .footer {
-    height: 50px;
+    height: 40vw;
     bottom: 0;
     background-color: #ff5300;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     font-family: 'Blinker';
     font-size: 1rem;
+    overflow: hidden;
+  }
+
+  .footer-location {
+    visibility: hidden;
+  }
+
+  .footer-social {
+    font-size: 8vw;
+    text-align: center;
+    margin-top: -30vw;
+    margin-bottom: 10px;
+  }
+
+  .social {
+    font-size: 9vw;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .footer-explore {
+    visibility: hidden;
   }
 
   .main-container {
@@ -85,8 +109,17 @@ body {
     animation: 2s slide-up;
   }
 
+  .copyright {
+    font-size: 3.5vw;
+  }
+
   h4 {
     font-size: 8vw;
+  }
+
+  h5 {
+    font-size: 6vw;
+    font-weight: bold;
   }
 
   p {
@@ -105,6 +138,13 @@ body {
     margin-top: 10px;
     align-self: center;
     width: 100%;
+  }
+
+  hr.new5 {
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   iframe {
