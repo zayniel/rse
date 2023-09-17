@@ -45,11 +45,11 @@ export default function NavBar() {
                 fontSize={{ sm: '24px', md: '26px', lg: '30px'}}
                 spacing={{sm: '30px', md: '30px', lg: '50px'}}
             >
-                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Home</Button>
-                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='160px' size='xl' fontFamily='Blinker'>AutoDrive II</Button>
-                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='120px' size='xl' fontFamily='Blinker'>Projects</Button>
-                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Teams</Button>
-                <Button borderRadius='180px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='140px' size='xl' fontFamily='Blinker'>Contact Us</Button>
+                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Home</Button>
+                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='160px' size='xl' fontFamily='Blinker'>AutoDrive II</Button>
+                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='120px' size='xl' fontFamily='Blinker'>Projects</Button>
+                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Teams</Button>
+                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='140px' size='xl' fontFamily='Blinker'>Contact Us</Button>
             </HStack>
             <Menu>
                 <MenuButton

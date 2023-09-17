@@ -8,6 +8,8 @@ import {
   Box,
 } from '@chakra-ui/react'
 import "@fontsource/blinker"
+import { BsInstagram, BsFacebook } from 'react-icons/bs'
+import { RiTwitterXFill } from 'react-icons/ri'
 
 const theme = extendTheme({
   styles: {
@@ -30,7 +32,7 @@ const theme = extendTheme({
     },
   },
   breakpoints: {
-    xs: '570px',
+    xs: '650px',
     sm: '1200px',
     md: '1320px',
     lg: '1600px'
@@ -59,7 +61,34 @@ export default function Home() {
         </div>
       </div>
       <div className='footer'>
-        © Michigan Technological University
+        <div className='footer-container'>
+          <div className='footer-explore'>
+            <h5>Explore</h5>
+            <hr className='new3'/>
+            <a href='#'>Home</a>
+            <a href='#'>AutoDrive II</a>
+            <a href='#'>Projects</a>
+            <a href='#'>Teams</a>
+            <a href='#'>Home</a>
+          </div>
+          <div className='footer-location'>
+            <h5>Location</h5>
+            <hr className='new4'/>
+            <div>Electrical Energy Resources Center Lab 809, Houghton, MI 49931</div>
+          </div>
+          <div className='footer-social'>
+            <h5>Socials</h5>
+            <hr className='new5'/>
+            <div className='social-container'>
+              <button className='social'><BsInstagram/></button>
+              <button className='social'><RiTwitterXFill/></button>
+              <button className='social'><BsFacebook/></button>
+            </div>
+          </div>
+        </div>
+        <div className='copyright'>
+            © 2023 Michigan Technological University
+        </div>
       </div>
     </ChakraProvider>
   );

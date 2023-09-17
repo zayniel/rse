@@ -20,7 +20,7 @@ body {
 }
 
 /* For Mobile */
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 650px) {
   .container {
     padding-top: 80px;
   }
@@ -128,7 +128,7 @@ body {
 }
 
 /* For Desktop */
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 650px) {
   .container {
     padding-top: 120px;
   }
@@ -160,15 +160,53 @@ body {
   }
 
   .footer {
-    height: 70px;
+    height: 20vw;
     bottom: 0;
     background-color: #ff5300;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     color: white;
     font-family: 'Blinker';
-    font-size: 1.5rem;
+    font-size: 1.5vw;
+  }
+
+  .footer-location {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .footer-social {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .footer-explore {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .social {
+    font-size: 2.5vw;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .copyright {
+    font-size: 1.2vw;
   }
 
   .main-container {
@@ -197,6 +235,11 @@ body {
     font-size: 3vw;
   }
 
+  h5 {
+    font-size: 2vw;
+    font-weight: bold;
+  }
+
   p {
     font-size: 1.5vw;
   }
@@ -209,6 +252,27 @@ body {
 
   hr.new2 {
     visibility: hidden;
+  }
+
+  hr.new3 {
+    border: 1px solid white;
+    width: 6.2vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  hr.new4 {
+    border: 1px solid white;
+    width: 7.4vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  hr.new5 {
+    border: 1px solid white;
+    width: 5.8vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   iframe {
@@ -315,9 +379,10 @@ ul {
 @keyframes slide-up {
   from { 
     opacity: 0; 
-    margin-top: 50px 
+    margin-top: 50px;
   }
   to { 
     opacity: 1; 
-    margin-top: 0px }
+    margin-top: 0px;
+  }
 }
