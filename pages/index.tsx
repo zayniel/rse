@@ -65,7 +65,7 @@ export default function Home() {
           <div className='footer-explore'>
             <h5>Explore</h5>
             <hr className='new3'/>
-            <a href='#'>Home</a>
+            <a href='/'>Home</a>
             <a href='#'>AutoDrive II</a>
             <a href='#'>Projects</a>
             <a href='#'>Teams</a>
@@ -80,9 +80,9 @@ export default function Home() {
             <h5>Socials</h5>
             <hr className='new5'/>
             <div className='social-container'>
-              <button className='social'><BsInstagram/></button>
-              <button className='social'><RiTwitterXFill/></button>
-              <button className='social'><BsFacebook/></button>
+              <a href='https://www.instagram.com/mturobotics/' target='_blank' rel='noopener noreferrer'><button className='social'><BsInstagram/></button></a>
+              <a href='https://twitter.com/MTUAutoDrive/' target='_blank' rel='noopener noreferrer'><button className='social'><RiTwitterXFill/></button></a>
+              <a href='https://m.facebook.com/MichiganTechRoboticSystemsEnterprise/' target='_blank' rel='noopener noreferrer'><button className='social'><BsFacebook/></button></a>
             </div>
           </div>
         </div>

@@ -160,7 +160,7 @@ body {
   }
 
   .footer {
-    height: 20vw;
+    height: 21vw;
     bottom: 0;
     background-color: #ff5300;
     display: flex;
@@ -176,21 +176,21 @@ body {
     display: flex;
     align-items: left;
     flex-direction: column;
-    width: 300px;
+    width: 22vw;
   }
 
   .footer-social {
     display: flex;
     align-items: left;
     flex-direction: column;
-    width: 200px;
+    width: 13vw;
   }
 
   .footer-explore {
     display: flex;
     align-items: left;
     flex-direction: column;
-    width: 200px;
+    width: 8vw;
   }
 
   .footer-container {
@@ -221,7 +221,6 @@ body {
   .bio-container {
     display: flex;
     padding-left: 50px;
-    padding-right: 50px;
     margin-top: -10px;
     color: black;
     font-family: 'Blinker';
@@ -272,7 +271,7 @@ body {
     border: 1px solid white;
     width: 5.8vw;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   iframe {
