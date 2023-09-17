@@ -52,7 +52,7 @@ body {
   }
 
   .footer {
-    height: 40vw;
+    height: 150px;
     bottom: 0;
     background-color: #ff5300;
     display: flex;
@@ -70,17 +70,16 @@ body {
   }
 
   .footer-social {
-    font-size: 8vw;
+    font-size: 4vh;
     text-align: center;
-    margin-top: -30vw;
-    margin-bottom: 10px;
+    margin-top: -190px;
+    margin-bottom: 20px;
   }
 
   .social {
-    font-size: 9vw;
+    font-size: 6vh;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 5px;
   }
 
   .footer-explore {
@@ -120,6 +119,7 @@ body {
   h5 {
     font-size: 6vw;
     font-weight: bold;
+    visibility: hidden;
   }
 
   p {
@@ -145,6 +145,8 @@ body {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
+    align-self: center;
+    visibility: hidden;
   }
 
   iframe {
