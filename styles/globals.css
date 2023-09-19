@@ -182,7 +182,7 @@ body {
     scroll-behavior: smooth;
     transition: 1s;
     overflow:hidden;
-    height: 24vw;
+    height: 22vw;
   }
 
   .slider-nav a {
@@ -330,6 +330,16 @@ body {
     color: white;
     top: 35%;
     z-index: 1;
+  }
+
+  .image-container {
+    padding-top: 120px;
+  }
+
+  .image {
+    height: 22vw;
+    object-fit: cover;
+    width: 100%;
   }
 }
 

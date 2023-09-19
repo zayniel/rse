@@ -45,11 +45,11 @@ export default function NavBar() {
                 fontSize={{ sm: '24px', md: '26px', lg: '30px'}}
                 spacing={{sm: '30px', md: '30px', lg: '50px'}}
             >
-                <Button as='a' href='/' borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Home</Button>
-                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='160px' size='xl' fontFamily='Blinker'>AutoDrive II</Button>
-                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='120px' size='xl' fontFamily='Blinker'>Projects</Button>
-                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Teams</Button>
-                <Button borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='140px' size='xl' fontFamily='Blinker'>Contact Us</Button>
+                <Button bgColor='#f0f0f0' color='black' as='a' href='https://rse-mtu.vercel.app' borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Home</Button>
+                <Button bgColor='#f0f0f0' color='black' as='a' href='/autodrive' borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='170px' size='xl' fontFamily='Blinker'>AutoDrive II</Button>
+                <Button bgColor='#f0f0f0' color='black' as='a' href='/projects' borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='120px' size='xl' fontFamily='Blinker'>Projects</Button>
+                <Button bgColor='#f0f0f0' color='black' as='a' href='/teams' borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='100px' size='xl' fontFamily='Blinker'>Teams</Button>
+                <Button bgColor='#f0f0f0' color='black' as='a' href='/contact' borderRadius='20px' _hover={{bg:'orange.200'}} fontWeight='normal' h='50px' w='160px' size='xl' fontFamily='Blinker'>Contact Us</Button>
             </HStack>
             <Menu>
                 <MenuButton
@@ -62,9 +62,11 @@ export default function NavBar() {
                     position='absolute'
                     visibility={{base: 'visible', sm:'hidden', md:'hidden', lg:'hidden'}}
                     fontSize='2xl'
+                    color='black'
+                    _hover={{bg:'orange.200'}}
                 />
                 <MenuList fontFamily='Blinker' fontSize='24px' paddingY='10px' paddingX='10px' bgColor='white' borderRadius='lg'>
-                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='https://rse-mtu.vercel.app'>
                         Home
                     </MenuItem>
                     <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>

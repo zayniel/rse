@@ -45,7 +45,9 @@ export default function Home() {
     <ChakraProvider theme={theme}>
       <LightMode>
       <NavBar/>
-      <Slideshow/>
+      <div className='image-container'>
+        <img className='image' src='./autodrive.jpg'></img>
+      </div>
       <div className='main-container'>
         <div className='video-container'>
         <iframe 
@@ -56,9 +58,9 @@ export default function Home() {
         />
         </div>
         <div className='bio-container'>
-          <h4><b>Who we are</b></h4>
+          <h4><b>AutoDrive II</b></h4>
           <hr className='new1'></hr>
-          <p>We are the Robotic Systems Enterprise at Michigan Tech: an industry-driven enterprise that focuses on solving real-world industrial and engineering problems for our sponsors. Our goal is for members to gain industry knowledge, interdisciplinary teamwork, and communication skills. From developing sensor systems for an autonomous vehicle to designing field research robots that navigate the Tech Trails, RSE projects span a wide variety of interests.</p>
+          <p>The AutoDrive Challenge™ II is a four-year competition coordinated by General Motors and the Society of Automotive Engineers (SAE) in which college teams create and test a Level 4 autonomous vehicle. RSE Students work to meet the requirements of each objective throughout the academic year until competition time in June. Competition week is full of challenges that take place at the University of Michigan’s MCity test track in Ann Arbor, MI. Written reports, presentations, and dynamic challenges are all scored into a total point count. MTU’s team, Prometheus Borealis, took home a number of trophies in year one of the competition!</p>
           <hr className='new2'></hr>
         </div>
       </div>
