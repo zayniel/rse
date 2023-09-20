@@ -66,24 +66,25 @@ body {
   }
 
   .footer-location {
-    visibility: hidden;
+    height: 0;
+    width: 0;
   }
 
   .footer-social {
     font-size: 4vh;
     text-align: center;
-    margin-top: -190px;
-    margin-bottom: 20px;
   }
 
   .social {
     font-size: 6vh;
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 30px;
   }
 
   .footer-explore {
-    visibility: hidden;
+    height: 0;
+    width: 0;
   }
 
   .main-container {
@@ -110,6 +111,7 @@ body {
 
   .copyright {
     font-size: 3.5vw;
+    margin-bottom: 10vw;
   }
 
   h4 {
@@ -179,7 +181,7 @@ body {
   .sponsor-container {
     display: flex;
     flex-direction: column;
-    background-color: #909598;
+    background-color: gray;
     align-items: center;
     padding-top: 3vw;
     padding-bottom: 2vw;
@@ -194,7 +196,6 @@ body {
 
   .sponsor-content {
     width: 80vw;
-    opacity: 55%;
   }
 
   .sponsors {
@@ -384,7 +385,7 @@ body {
   .sponsor-container {
     display: flex;
     flex-direction: column;
-    background-color: #909598;
+    background-color: gray;
     align-items: center;
     padding-top: 2.5vw;
   }
@@ -398,7 +399,6 @@ body {
 
   .sponsor-content {
     width: 60vw;
-    opacity: 70%;
   }
 
   .sponsors-mobile {
