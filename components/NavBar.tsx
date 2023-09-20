@@ -69,16 +69,16 @@ export default function NavBar() {
                     <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='https://rse-mtu.vercel.app'>
                         Home
                     </MenuItem>
-                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='https://rse-mtu.vercel.app/autodrive'>
                         AutoDrive II
                     </MenuItem>
-                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='https://rse-mtu.vercel.app/projects'>
                         Projects
                     </MenuItem>
-                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='https://rse-mtu.vercel.app/teams'>
                         Teams
                     </MenuItem>
-                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='#'>
+                    <MenuItem borderRadius='lg' _hover={{bg:'orange.200'}} my='2px' as='a' href='https://rse-mtu.vercel.app/contact'>
                         Contact Us
                     </MenuItem>
                 </MenuList>

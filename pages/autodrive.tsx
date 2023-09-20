@@ -64,6 +64,14 @@ export default function Home() {
           <hr className='new2'></hr>
         </div>
       </div>
+      <div className='sponsor-container'>
+        <div className='sponsor-header'>Sponsors</div>
+        <hr className='new6'></hr>
+        <div className='sponsor-content'>
+          <img className='sponsors' src='./sponsors.png'/>
+          <img className='sponsors-mobile' src='./sponsors-mobile.png'/>
+        </div>
+      </div>
       <div className='footer'>
         <div className='footer-container'>
           <div className='footer-explore'>

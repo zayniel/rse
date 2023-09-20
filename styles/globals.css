@@ -149,6 +149,14 @@ body {
     visibility: hidden;
   }
 
+  hr.new6 {
+    border: 1px solid white;
+    width: 28vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-self: center;
+  }
+
   iframe {
     height: 45vw;
     width: 80vw;
@@ -166,6 +174,31 @@ body {
     text-align: center;
     top: 28%;
     z-index: 1;
+  }
+
+  .sponsor-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #909598;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+  }
+
+  .sponsor-header {
+    color: white;
+    font-family: 'Blinker';
+    font-size: 7vw;
+    font-weight: bold;
+  }
+
+  .sponsor-content {
+    width: 80vw;
+    opacity: 55%;
+  }
+
+  .sponsors {
+    width: 0;
   }
 }
 
@@ -316,6 +349,12 @@ body {
     margin-bottom: 8px;
   }
 
+  hr.new6 {
+    border: 1px solid white;
+    width: 11vw;
+    margin-top: 10px;
+  }
+
   iframe {
     height: 18vw;
     width: 32vw;
@@ -340,6 +379,30 @@ body {
     height: 22vw;
     object-fit: cover;
     width: 100%;
+  }
+
+  .sponsor-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #909598;
+    align-items: center;
+    padding-top: 2.5vw;
+  }
+
+  .sponsor-header {
+    color: white;
+    font-family: 'Blinker';
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+
+  .sponsor-content {
+    width: 60vw;
+    opacity: 70%;
+  }
+
+  .sponsors-mobile {
+    width: 0;
   }
 }
 
