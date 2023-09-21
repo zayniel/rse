@@ -329,6 +329,11 @@ body {
     animation: 2s slide-up;
   }
 
+  .projects-container {
+    color: black;
+    font-family: 'Blinker';
+  }
+
   h4 {
     font-size: 3vw;
   }
