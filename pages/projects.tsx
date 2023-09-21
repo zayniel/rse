@@ -1,5 +1,6 @@
 import * as React from 'react';
 import NavBar from '../components/NavBar'
+import Slideshow from '../components/Slideshow'
 import {
   ChakraProvider,
   extendTheme,
@@ -43,35 +44,14 @@ export default function Home() {
       <LightMode>
       <NavBar/>
       <div className='image-container'>
-        <img className='image' src='./autodrive.jpg'></img>
+        <img className='image' src='./projects.jpg'></img>
       </div>
       <div className='main-container'>
-        <div>
-        <div className='video-container'>
-        <iframe 
-          src="https://www.youtube.com/embed/f-c_Q8Ztvnw" 
-          title="Autodrive Challenge II Year 2 Highlights" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowFullScreen
-        />
-        </div>
-        <a href='https://autodrivechallenge.com/' target='_blank' rel='noopener noreferrer'>
-        <button className='SAE'>AutoDrive Challenge™ II</button>
-        </a>
-        </div>
         <div className='bio-container'>
-          <h4><b>AutoDrive II</b></h4>
+          <h4><b>Projects</b></h4>
           <hr className='new1'></hr>
-          <p>The AutoDrive Challenge™ II is a four-year competition coordinated by General Motors and the Society of Automotive Engineers (SAE) in which college teams create and test a Level 4 autonomous vehicle. RSE Students work to meet the requirements of each objective throughout the academic year until competition time in June. Competition week is full of challenges that take place at the University of Michigan’s MCity test track in Ann Arbor, MI. Written reports, presentations, and dynamic challenges are all scored into a total point count. MTU’s team, Prometheus Borealis, took home a number of trophies in year one of the competition!</p>
+          <p>The Robotic Systems Enterprise has offered a number of projects over the years. Members of RSE are divided into subgroups to work on each of our projects. We use dynamic teams to create an environment of growth that fosters feelings of contribution and confidence.</p>
           <hr className='new2'></hr>
-        </div>
-      </div>
-      <div className='sponsor-container'>
-        <div className='sponsor-header'>Sponsors</div>
-        <hr className='new6'></hr>
-        <div className='sponsor-content'>
-          <img className='sponsors' src='./sponsors.png'/>
-          <img className='sponsors-mobile' src='./sponsors-mobile.png'/>
         </div>
       </div>
       <div className='footer'>
