@@ -95,6 +95,17 @@ body {
     padding-top: 10px;
     padding-bottom: 30px;
   }
+
+  .SAE {
+    color: white;
+    background-color: #ff6600;
+    margin-top: 7vw;
+    margin-left: 12.5vw;
+    font-size: 5vw;
+    border-radius: 15px;
+    width: 55vw;
+    font-family: 'Blinker'
+  }
   
   .bio-container {
     display: flex;
@@ -292,6 +303,18 @@ body {
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .SAE {
+    color: white;
+    background-color: #ff6600;
+    margin-top: 2vw;
+    margin-left: 8.6vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    width: 15vw;
+    height: 2vw;
+    font-family: 'Blinker'
   }
   
   .bio-container {

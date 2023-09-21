@@ -49,6 +49,7 @@ export default function Home() {
         <img className='image' src='./autodrive.jpg'></img>
       </div>
       <div className='main-container'>
+        <div>
         <div className='video-container'>
         <iframe 
           src="https://www.youtube.com/embed/f-c_Q8Ztvnw" 
@@ -56,6 +57,10 @@ export default function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowFullScreen
         />
+        </div>
+        <a href='https://autodrivechallenge.com/' target='_blank' rel='noopener noreferrer'>
+        <button className='SAE'>AutoDrive Challenge™ II</button>
+        </a>
         </div>
         <div className='bio-container'>
           <h4><b>AutoDrive II</b></h4>
