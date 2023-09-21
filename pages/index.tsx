@@ -62,6 +62,13 @@ export default function Home() {
           <hr className='new2'></hr>
         </div>
       </div>
+      <div className='tenacity-container'>
+        <div className='framed-wall'>
+          <img className='framed-1' src='./framed-1.png'/>
+          <img className='tenacity' src='./tenacity.png'/>
+          <img className='framed-1' src='./framed-2.png'/>
+        </div>
+      </div>
       <div className='footer'>
         <div className='footer-container'>
           <div className='footer-explore'>

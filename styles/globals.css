@@ -54,7 +54,6 @@ body {
   .footer {
     height: 150px;
     bottom: 0;
-    background-color: #ff5300;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,6 +62,10 @@ body {
     font-family: 'Blinker';
     font-size: 1rem;
     overflow: hidden;
+    background-image: url('../public/polygons.png');
+    background-size: 100%;
+    background-position-y: -1vw;
+    margin-top: -3vw;
   }
 
   .footer-location {
@@ -247,9 +250,8 @@ body {
   }
 
   .footer {
-    height: 21vw;
+    height: 31vw;
     bottom: 0;
-    background-color: #ff5300;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,8 +261,8 @@ body {
     font-size: 1.5vw;
     background-image: url('../public/polygons.png');
     background-size: 100%;
-    background-position-y: -8vw;
-    
+    background-position-y: -1vw;
+    margin-top: -4vw;
   }
 
   .footer-location {
@@ -268,6 +270,7 @@ body {
     align-items: left;
     flex-direction: column;
     width: 22vw;
+    text-shadow: 0px 0px 10px black;
   }
 
   .footer-social {
@@ -275,6 +278,7 @@ body {
     align-items: left;
     flex-direction: column;
     width: 13vw;
+    text-shadow: 0px 0px 10px black;
   }
 
   .footer-explore {
@@ -282,12 +286,14 @@ body {
     align-items: left;
     flex-direction: column;
     width: 8vw;
+    text-shadow: 0px 0px 10px black;
   }
 
   .footer-container {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 7vw;
   }
 
   .social {
@@ -298,6 +304,7 @@ body {
 
   .copyright {
     font-size: 1.2vw;
+    text-shadow: 0px 0px 10px black;
   }
 
   .main-container {
@@ -366,6 +373,7 @@ body {
     width: 6.2vw;
     margin-top: 5px;
     margin-bottom: 5px;
+    box-shadow: 0px 0px 10px black;
   }
 
   hr.new4 {
@@ -373,6 +381,7 @@ body {
     width: 7.4vw;
     margin-top: 5px;
     margin-bottom: 5px;
+    box-shadow: 0px 0px 10px black;
   }
 
   hr.new5 {
@@ -380,12 +389,14 @@ body {
     width: 5.8vw;
     margin-top: 5px;
     margin-bottom: 8px;
+    box-shadow: 0px 0px 10px black;
   }
 
   hr.new6 {
     border: 1px solid white;
     width: 11vw;
-    margin-top: 10px;
+    margin-top: 2.5vw;
+    margin-bottom: -1vw;
   }
 
   iframe {
@@ -419,7 +430,8 @@ body {
     flex-direction: column;
     background-color: gray;
     align-items: center;
-    padding-top: 2.5vw;
+    padding-top: 1vw;
+    margin-bottom: -7.2vw;
   }
 
   .sponsor-header {
@@ -427,6 +439,7 @@ body {
     font-family: 'Blinker';
     font-size: 2.5vw;
     font-weight: bold;
+    margin-bottom: -2.5vw;
   }
 
   .sponsor-content {
@@ -435,6 +448,31 @@ body {
 
   .sponsors-mobile {
     width: 0;
+  }
+
+  .tenacity-container {
+    display: flex;
+    height: 30vw;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -7.2vw;
+  }
+
+  .framed-wall {
+    display: flex;
+  }
+
+  .tenacity {
+    height: 20vw;
+    margin-top: -3vw;
+    margin-right: 6vw;
+    margin-left: 6vw;
+  }
+
+  .framed-1 {
+    height: 15vw;
+    margin-top: -1vw;
   }
 }
 
