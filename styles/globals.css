@@ -52,40 +52,55 @@ body {
   }
 
   .footer {
-    height: 30vw;
+    height: 180vw;
     bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
     font-family: 'Blinker';
     font-size: 1rem;
     overflow: hidden;
-    background-image: url('../public/polygons.png');
+    background-image: url('../public/mobile-polygons.png');
     background-size: 100%;
     background-position-y: -1vw;
   }
 
   .footer-location {
-    height: 0;
-    width: 0;
+    height: 20vw;
+    width: 100vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    margin-bottom: 5vw;
+    font-size: 6vw;
+    text-shadow: 0px 0px 15px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .footer-social {
     font-size: 4vh;
     text-align: center;
+    margin-bottom: 7vw;
   }
 
   .social {
-    font-size: 6vh;
+    font-size: 5vh;
     margin-right: 20px;
     margin-left: 20px;
   }
 
   .footer-explore {
-    height: 0;
-    width: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 6vw;
+    height: 20vw;
+    width: 100vw;
+    margin-bottom: 34vw;
+    margin-top: 50vw;
+    text-shadow: 0px 0px 15px black;
   }
 
   .main-container {
@@ -125,6 +140,7 @@ body {
   .copyright {
     font-size: 3.5vw;
     margin-bottom: 5vw;
+    text-shadow: 0px 0px 15px black;
   }
 
   h4 {
@@ -153,6 +169,14 @@ body {
     margin-top: 10px;
     align-self: center;
     width: 100%;
+  }
+
+  hr.new3 {
+    visibility: hidden;
+  }
+
+  hr.new4 {
+    visibility: hidden;
   }
 
   hr.new5 {
@@ -196,9 +220,10 @@ body {
     flex-direction: column;
     background-color: gray;
     align-items: center;
+    height: 80vw;
     padding-top: 3vw;
     padding-bottom: 2vw;
-    margin-bottom: -7.2vw;
+    margin-bottom: -48vw;
   }
 
   .sponsor-header {
@@ -219,11 +244,11 @@ body {
 
   .tenacity-container {
     display: flex;
-    height: 90vw;
+    height: 120vw;
     background-color: lightgray;
     justify-content: center;
     align-items: center;
-    margin-bottom: -7.2vw;
+    margin-bottom: -48vw;
   }
 
   .framed-wall {
@@ -231,8 +256,8 @@ body {
   }
 
   .tenacity {
-    height: 70vw;
-    margin-top: -3vw;
+    height: 80vw;
+    margin-top: -20vw;
     margin-right: 6vw;
     margin-left: 6vw;
     box-shadow: 0px 8px 8px grey;
