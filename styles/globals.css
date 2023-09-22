@@ -482,6 +482,7 @@ body {
     flex-direction: column;
     background-color: gray;
     align-items: center;
+    margin-top: -1.4vw;
     padding-top: 1vw;
     margin-bottom: -7.2vw;
   }
