@@ -56,7 +56,7 @@ export default function Home() {
         />
         </div>
         <a href='https://autodrivechallenge.com/' target='_blank' rel='noopener noreferrer'>
-        <button className='SAE'>AutoDrive Challenge™ II</button>
+        <button className='SAE'>Learn More</button>
         </a>
         </div>
         <div className='bio-container'>
