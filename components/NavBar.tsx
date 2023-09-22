@@ -30,12 +30,6 @@ export default function NavBar() {
                     ml={{base:'10px', xs: '30px'}}
                     mt={{base: '10px', xs:'10px'}}
                 />
-                {/*
-                <Stack spacing={0}>
-                    <Text color='black' variant='title' fontSize={{base:'20px', xs:'28px', sm: '28px', md: '34px', lg: '40px'}} mt={{base: '30px', xs:'16px'}} mb={{base:'-10px', xs:'-16px', sm:'-16px', md:'-16px', lg:'-16px'}}>Robotic Systems Enterprise</Text>
-                    <Text color='black' variant='sub-title' fontSize={{base:'16px', xs:'20px', sm: '22px', md: '24px', lg: '26px'}}>Michigan Technological University</Text>
-                </Stack>
-                */}
             </HStack>
             <HStack
                 position='absolute'

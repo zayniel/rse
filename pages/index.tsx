@@ -64,9 +64,9 @@ export default function Home() {
       </div>
       <div className='tenacity-container'>
         <div className='framed-wall'>
-          <img className='framed-1' src='./framed-1.png'/>
+          <img className='framed' src='./framed-1.png'/>
           <img className='tenacity' src='./tenacity.png'/>
-          <img className='framed-1' src='./framed-2.png'/>
+          <img className='framed' src='./framed-2.png'/>
         </div>
       </div>
       <div className='footer'>
