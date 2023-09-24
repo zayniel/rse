@@ -395,6 +395,7 @@ body {
   .projects-container {
     color: black;
     font-family: 'Blinker';
+    
   }
 
   h4 {
@@ -529,6 +530,24 @@ body {
     height: 15vw;
     margin-top: -1vw;
     box-shadow: 0px 8px 8px grey;
+  }
+
+  .projects-container {
+    display: flex;
+    height: 80vw;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -7.2vw;
+  }
+
+  .project-grid {
+    margin-top: -8vw;
+    max-width: 1200px;
+    display: grid;
+    column-gap: 7.5vw;
+    row-gap: 10vw;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

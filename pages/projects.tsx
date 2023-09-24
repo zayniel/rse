@@ -53,8 +53,19 @@ export default function Home() {
           <p>The Robotic Systems Enterprise has offered a number of projects over the years. Members of RSE are divided into subgroups to work on each of our projects. We use dynamic teams to create an environment of growth that fosters feelings of contribution and confidence.</p>
           <hr className='new2'></hr>
         </div>
-        <div className='projects-container'>
-          
+      </div>
+      <div className='projects-container'>
+        <div className='project-grid'>
+          <div>
+            <img className='framed' src='./autodrive2.png'/>
+            
+          </div>
+          <div><img className='framed' src='./autodrive2.png'/></div>
+          <div><img className='framed' src='./autodrive2.png'/></div>
+          <div><img className='framed' src='./autodrive2.png'/></div>
+          <div><img className='framed' src='./autodrive2.png'/></div>
+          <div><img className='framed' src='./autodrive2.png'/></div>
+          <div><img className='framed' src='./autodrive2.png'/></div>
         </div>
       </div>
       <div className='footer'>
