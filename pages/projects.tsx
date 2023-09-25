@@ -58,7 +58,7 @@ export default function Home() {
         <div className='project-grid'>
           <div>
             <img className='framed' src='./autodrive2.png'/>
-            
+            <h3>AutoDrive II</h3>
           </div>
           <div><img className='framed' src='./autodrive2.png'/></div>
           <div><img className='framed' src='./autodrive2.png'/></div>
