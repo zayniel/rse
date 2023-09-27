@@ -56,16 +56,34 @@ export default function Home() {
       </div>
       <div className='projects-container'>
         <div className='project-grid'>
-          <div>
-            <img className='framed' src='./autodrive2.png'/>
-            <h3>AutoDrive II</h3>
+          <div className='project-content'>
+            <img className='project' src='./autodrive2.png'/>
+            <h6>AutoDrive II</h6>
           </div>
-          <div><img className='framed' src='./autodrive2.png'/></div>
-          <div><img className='framed' src='./autodrive2.png'/></div>
-          <div><img className='framed' src='./autodrive2.png'/></div>
-          <div><img className='framed' src='./autodrive2.png'/></div>
-          <div><img className='framed' src='./autodrive2.png'/></div>
-          <div><img className='framed' src='./autodrive2.png'/></div>
+          <div className='project-content'>
+            <img className='project' src='./rov.png'/>
+            <h6>Underwater ROV</h6>
+          </div>
+          <div className='project-content'>
+            <img className='project' src='./zumo.png'/>
+            <h6>Aurora Minor</h6>
+          </div>
+          <div className='project-content'>
+            <img className='project' src='./borealis.png'/>
+            <h6>AutoDrive I</h6>
+          </div>
+          <div className='project-content'>
+            <img className='project' src='./jackal.png'/>
+            <h6>GVSC Leader-Follower</h6>
+          </div>
+          <div className='project-content'>
+            <img className='project' src='./niryo.png'/>
+            <h6>Niryo Ned</h6>
+          </div>
+          <div className='project-content'>
+            <img className='project' src='./cannon.png'/>
+            <h6>T-Shirt Cannon</h6>
+          </div>
         </div>
       </div>
       <div className='footer'>
