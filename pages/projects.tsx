@@ -49,7 +49,7 @@ export default function Home() {
       <div className='main-container'>
         <div className='bio-container'>
           <h4><b>Projects</b></h4>
-          <hr className='new1'></hr>
+          <hr className='new7'></hr>
           <p>The Robotic Systems Enterprise has offered a number of projects over the years. Members of RSE are divided into subgroups to work on each of our projects. We use dynamic teams to create an environment of growth that fosters feelings of contribution and confidence.</p>
           <hr className='new2'></hr>
         </div>
