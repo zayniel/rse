@@ -286,7 +286,7 @@ body {
     scroll-behavior: smooth;
     transition: 1s;
     overflow:hidden;
-    height: 22vw;
+    height: 26vw;
   }
 
   .slider-nav a {
@@ -485,6 +485,7 @@ body {
     color: white;
     top: 35%;
     z-index: 1;
+    margin-left: 20%;
   }
 
   .image-container {
@@ -579,6 +580,7 @@ body {
 
   .project {
     height: 13vw;
+    box-shadow: 0px 8px 8px grey;
   }
 }
 
