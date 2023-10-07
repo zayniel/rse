@@ -54,6 +54,57 @@ export default function Home() {
           <hr className='new2'></hr>
         </div>
       </div>
+      <div className='left-project'>
+        <img src='./autodrive2.png' className='bg-img'/>
+        <div className='left-proj-cont'>
+          <div className='left-proj-head'>AutoDrive II</div>
+        <div className='left-proj-desc'>
+        The AutoDrive II Challenge is a continuation of the original AutoDrive competition 
+        sponsored by SAE and General Motors to develop and demonstrate an SAE Level 4 autonomous 
+        driving passenger vehicle. 
+        <br></br><br></br>
+        At RSE we split the competition goals between several teams that 
+        utilize methods commonly used in the industry to create a solution for their respective problems. 
+        Then we bring those together and improve with the peer-review process to create a unique autonomous vehicle.
+        </div>
+        </div>
+      </div>
+      <div className='right-project'>
+        <img src='./rov.png' className='bg-img'/>
+        <div className='right-proj-cont'>
+          <div className='right-proj-head'>Underwater ROV</div>
+          <div className='right-proj-desc'>
+            * ROV description goes here *
+          </div>
+        </div>
+      </div>
+      <div className='left-project'>
+        <img src='./borealis.png' className='bg-img'/>
+        <div className='left-proj-cont'>
+          <div className='left-proj-head'>AutoDrive</div>
+        <div className='left-proj-desc'>
+        This three-year autonomous vehicle competition will task students
+        to develop and demonstrate a full autonomous driving passenger vehicle.
+        <br></br><br></br>
+        Throughout the AutoDrive Challenge™ competition cycle, students and faculty will be invited to attend 
+        technology-specific workshops to help them in their concept refinement and overall autonomous technical 
+        understanding. The competition consists of eight teams from select universities that were invited to 
+        participate in the inaugural competition.
+        </div>
+        </div>
+      </div>
+      <div className='right-project'>
+        <img src='./jackal.png' className='bg-img'/>
+        <div className='right-proj-cont'>
+          <div className='right-proj-head'>GVSC Leader-Follower</div>
+          <div className='right-proj-desc'>
+            The US Army Ground Vehicle Systems Center (GVSC) sponsors our Clearpath Jackal Leader-Follower project.
+            The goal is to create an autonomous convoy of five Jackal robots, such as the one seen above, that can navigate
+            to a destination while maintaining a safe distance between the vehicles and avoiding obstacles.
+          </div>
+        </div>
+      </div>
+      {/*
       <div className='projects-container'>
         <div className='project-grid'>
           <div className='project-content'>
@@ -86,6 +137,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      */}
       <div className='footer'>
         <div className='footer-container'>
           <div className='footer-explore'>
