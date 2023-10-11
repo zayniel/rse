@@ -48,9 +48,9 @@ export default function Home() {
       </div>
       <div className='main-container'>
         <div className='bio-container'>
-          <h4><b>Projects</b></h4>
+          <h4><b>Current Projects</b></h4>
           <hr className='new7'></hr>
-          <p>The Robotic Systems Enterprise has offered a number of projects over the years. Members of RSE are divided into subgroups to work on each of our projects. We use dynamic teams to create an environment of growth that fosters feelings of contribution and confidence.</p>
+          <p>Take a look at the exciting real world projects we're currently working on. Members of RSE are divided into subgroups to work on each of our projects. We use dynamic teams to create an environment of growth that fosters feelings of contribution and confidence.</p>
           <hr className='new2'></hr>
         </div>
       </div>
@@ -76,6 +76,14 @@ export default function Home() {
           <div className='right-proj-desc'>
             * ROV description goes here *
           </div>
+        </div>
+      </div>
+      <div className='main-container'>
+        <div className='bio-container'>
+          <h4><b>Past Projects</b></h4>
+          <hr className='new7'></hr>
+          <p>The Robotic Systems Enterprise has offered a number of projects over the years. Below you can see the projects we've previously worked on.</p>
+          <hr className='new2'></hr>
         </div>
       </div>
       <div className='left-project'>
@@ -104,6 +112,37 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className='left-project'>
+        <img src='./niryo.png' className='bg-img'/>
+        <div className='left-proj-cont'>
+          <div className='left-proj-head'>Niryo Ned</div>
+        <div className='left-proj-desc'>
+        This project has mainly educational as well as outreach purposes. We create demonstrations that could be easily
+        replicated by prospective students visiting our lab and inspire the next generation of roboticists.
+        </div>
+        </div>
+      </div>
+      <div className='right-project'>
+        <img src='./cannon.png' className='bg-img'/>
+        <div className='right-proj-cont'>
+          <div className='right-proj-head'>T-Shirt Cannon</div>
+          <div className='right-proj-desc'>
+            The focus of this project is to create a robot that will be able to shoot t-shirts into the crowd at the various events
+            happening on Michigan Tech's campus (hockey, football, etc.). The robot's primary advantage will be the remote operation and
+            release. 
+          </div>
+        </div>
+      </div>
+      <div className='left-project'>
+        <img src='./zumo.png' className='bg-img'/>
+        <div className='left-proj-cont'>
+          <div className='left-proj-head'>Aurora Minor - Zumo</div>
+        <div className='left-proj-desc'>
+        Each new member of our enterprise has a chance to show off their creativity and learn crucial skills while working with the Zumo robot during their first month at RSE. Completed projects enter the competition where we award the most innovative and interesting designs!
+        </div>
+        </div>
+      </div>
+      <div className='footer-spacing-fix'></div>
       {/*
       <div className='projects-container'>
         <div className='project-grid'>
