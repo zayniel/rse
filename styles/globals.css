@@ -271,6 +271,91 @@ body {
   .project {
 
   }
+
+  .left-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: lightgrey;
+    z-index: 0;
+  }
+
+  .right-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: lightgrey;
+  }
+
+  .bg-img {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .mobile-bg-img {
+    z-index: 0;
+    position: relative;
+  }
+
+  .left-proj-cont {
+    font-family: 'Blinker';
+    color: white;
+    margin-top: 1.2vw;
+    position: absolute;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vw;
+    bottom: 55vw;
+  }
+
+  .left-proj-head {
+    font-size: 9vw;
+    margin-bottom: .5vw;
+    text-align: center;
+  }
+
+  .left-proj-desc {
+    font-family: 'Blinker';
+    font-size: 4.5vw;
+    text-align: left;
+  }
+
+  .right-proj-cont {
+    font-family: 'Blinker';
+    color: white;
+    margin-top: 1.2vw;
+    position: absolute;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vw;
+    bottom: 55vw;
+  }
+
+  .right-proj-head {
+    font-size: 9vw;
+    margin-bottom: .5vw;
+    text-align: center;
+  }
+
+  .right-proj-desc {
+    font-family: 'Blinker';
+    font-size: 4.5vw;
+    text-align: left;
+  }
+
+  .footer-spacing-fix {
+    margin-bottom: -45vw;
+    z-index: 1;
+  }
 }
 
 /* For Desktop */
@@ -605,6 +690,12 @@ body {
     position: relative;
   }
 
+  .mobile-bg-img {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
   .left-proj-cont {
     font-family: 'Blinker';
     color: white;
@@ -612,6 +703,11 @@ body {
     margin-top: 1.2vw;
     position: absolute;
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 26.5vw;
   }
 
   .left-proj-head {
@@ -623,7 +719,7 @@ body {
   .left-proj-desc {
     font-family: 'Blinker';
     font-size: 1.5vw;
-    text-align: right;
+    text-align: left;
   }
 
   .right-proj-cont {
@@ -633,6 +729,11 @@ body {
     margin-top: 1.2vw;
     position: absolute;
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 26.5vw;
   }
 
   .right-proj-head {

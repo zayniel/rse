@@ -56,6 +56,7 @@ export default function Home() {
       </div>
       <div className='left-project'>
         <img src='./autodrive2.png' className='bg-img'/>
+        <img src='./mobile-autodrive2.png' className='mobile-bg-img'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>AutoDrive II</div>
         <div className='left-proj-desc'>
@@ -71,6 +72,7 @@ export default function Home() {
       </div>
       <div className='right-project'>
         <img src='./rov.png' className='bg-img'/>
+        <img src='./mobile-rov.png' className='mobile-bg-img'/>
         <div className='right-proj-cont'>
           <div className='right-proj-head'>Underwater ROV</div>
           <div className='right-proj-desc'>
@@ -88,6 +90,7 @@ export default function Home() {
       </div>
       <div className='left-project'>
         <img src='./borealis.png' className='bg-img'/>
+        <img src='./mobile-autodrive.png' className='mobile-bg-img'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>AutoDrive</div>
         <div className='left-proj-desc'>
@@ -103,6 +106,7 @@ export default function Home() {
       </div>
       <div className='right-project'>
         <img src='./jackal.png' className='bg-img'/>
+        <img src='./mobile-jackal.png' className='mobile-bg-img'/>
         <div className='right-proj-cont'>
           <div className='right-proj-head'>GVSC Leader-Follower</div>
           <div className='right-proj-desc'>
@@ -114,6 +118,7 @@ export default function Home() {
       </div>
       <div className='left-project'>
         <img src='./niryo.png' className='bg-img'/>
+        <img src='./mobile-niryo.png' className='mobile-bg-img'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>Niryo Ned</div>
         <div className='left-proj-desc'>
@@ -124,6 +129,7 @@ export default function Home() {
       </div>
       <div className='right-project'>
         <img src='./cannon.png' className='bg-img'/>
+        <img src='./mobile-cannon.png' className='mobile-bg-img'/>
         <div className='right-proj-cont'>
           <div className='right-proj-head'>T-Shirt Cannon</div>
           <div className='right-proj-desc'>
@@ -135,6 +141,7 @@ export default function Home() {
       </div>
       <div className='left-project'>
         <img src='./zumo.png' className='bg-img'/>
+        <img src='./mobile-zumo.png' className='mobile-bg-img'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>Aurora Minor - Zumo</div>
         <div className='left-proj-desc'>
