@@ -64,6 +64,8 @@ body {
     background-image: url('../public/mobile-polygons.png');
     background-size: 100%;
     background-position-y: -1vw;
+    position: relative;
+    z-index: 1;
   }
 
   .footer-location {
@@ -166,9 +168,10 @@ body {
 
   hr.new2 {
     border: 1px solid #ffb000;
-    margin-top: 10px;
+    margin-top: 1vw;
     align-self: center;
     width: 100%;
+    margin-bottom: 1vw;
   }
 
   hr.new3 {
@@ -194,6 +197,22 @@ body {
     margin-top: 5px;
     margin-bottom: 10px;
     align-self: center;
+  }
+
+  hr.new7 {
+    border: 1px solid #ffb000;
+    margin-top: 1vw;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 1vw;
+  }
+
+  hr.new8 {
+    border: 1px solid #ffb000;
+    margin-top: 1vw;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 1vw;
   }
 
   iframe {
@@ -296,6 +315,7 @@ body {
   }
 
   .mobile-bg-img {
+    margin-top: -8vw;
     z-index: 0;
     position: relative;
   }
@@ -555,7 +575,13 @@ body {
   hr.new7 {
     border: 1px solid #ffb000;
     margin-bottom: 10px;
-    width: 10.1vw;
+    width: 20.2vw;
+  }
+
+  hr.new8 {
+    border: 1px solid #ffb000;
+    margin-bottom: 10px;
+    width: 16.3vw;
   }
 
   iframe {

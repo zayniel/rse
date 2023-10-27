@@ -83,7 +83,7 @@ export default function Home() {
       <div className='main-container'>
         <div className='bio-container'>
           <h4><b>Past Projects</b></h4>
-          <hr className='new7'></hr>
+          <hr className='new8'></hr>
           <p>The Robotic Systems Enterprise has offered a number of projects over the years. Below you can see the projects we've previously worked on.</p>
           <hr className='new2'></hr>
         </div>
@@ -108,7 +108,7 @@ export default function Home() {
         <img src='./jackal.png' className='bg-img'/>
         <img src='./mobile-jackal.png' className='mobile-bg-img'/>
         <div className='right-proj-cont'>
-          <div className='right-proj-head'>GVSC Leader-Follower</div>
+          <div className='right-proj-head'>GVSC Leader Follower</div>
           <div className='right-proj-desc'>
             The US Army Ground Vehicle Systems Center (GVSC) sponsors our Clearpath Jackal Leader-Follower project.
             The goal is to create an autonomous convoy of five Jackal robots, such as the one seen above, that can navigate
