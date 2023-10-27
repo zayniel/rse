@@ -777,6 +777,25 @@ body {
   .footer-spacing-fix {
     margin-bottom: -7.2vw;
   }
+
+  .contact-container {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 10vw;
+    margin-top: -10px;
+    color: black;
+    font-family: 'Blinker';
+    font-size: 2.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: ease;
+    animation: 2s slide-up;
+  }
+  
+  .contact-form {
+    padding-right: 5vw;
+  }
+
 }
 
 .slider-wrapper {
