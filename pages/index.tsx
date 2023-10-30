@@ -53,6 +53,7 @@ export default function Home() {
           title="Autodrive Challenge II Year 2 Highlights" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowFullScreen
+          style={{height: '18vw', width: '32vw'}}
         />
         </div>
         <div className='bio-container'>
