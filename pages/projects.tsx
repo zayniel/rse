@@ -64,9 +64,14 @@ export default function Home() {
         sponsored by SAE and General Motors to develop and demonstrate an SAE Level 4 autonomous 
         driving passenger vehicle. 
         <br></br><br></br>
+        <a href='/autodrive'>
+        See AutoDrive II page for more information >>
+        </a>
+        {/*
         At RSE we split the competition goals between several teams that 
         utilize methods commonly used in the industry to create a solution for their respective problems. 
         Then we bring those together and improve with the peer-review process to create a unique autonomous vehicle.
+        */}
         </div>
         </div>
       </div>
@@ -76,7 +81,7 @@ export default function Home() {
         <div className='right-proj-cont'>
           <div className='right-proj-head'>Underwater ROV</div>
           <div className='right-proj-desc'>
-            * ROV description goes here *
+          Augment and modify an existing, off the shelf, low cost, and open source ROV to build a towable underwater video & sonar vehicle. This towable glider will be used for collecting image and sonar data of the bottom of the portage.
           </div>
         </div>
       </div>
@@ -89,59 +94,53 @@ export default function Home() {
         </div>
       </div>
       <div className='left-project'>
-        <img src='./borealis.png' className='bg-img'/>
-        <img src='./mobile-autodrive.png' className='mobile-bg-img'/>
+        <img src='./borealis.png' className='bg-img' loading='lazy'/>
+        <img src='./mobile-autodrive.png' className='mobile-bg-img' loading='lazy'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>AutoDrive</div>
         <div className='left-proj-desc'>
-        This three-year autonomous vehicle competition will task students
+        Three-year autonomous vehicle competition which tasked students
         to develop and demonstrate a full autonomous driving passenger vehicle.
-        <br></br><br></br>
-        Throughout the AutoDrive Challenge™ competition cycle, students and faculty will be invited to attend 
-        technology-specific workshops to help them in their concept refinement and overall autonomous technical 
-        understanding. The competition consists of eight teams from select universities that were invited to 
-        participate in the inaugural competition.
         </div>
         </div>
       </div>
       <div className='right-project'>
-        <img src='./jackal.png' className='bg-img'/>
-        <img src='./mobile-jackal.png' className='mobile-bg-img'/>
+        <img src='./jackal.png' className='bg-img' loading='lazy'/>
+        <img src='./mobile-jackal.png' className='mobile-bg-img' loading='lazy'/>
         <div className='right-proj-cont'>
           <div className='right-proj-head'>GVSC Leader Follower</div>
           <div className='right-proj-desc'>
-            The US Army Ground Vehicle Systems Center (GVSC) sponsors our Clearpath Jackal Leader-Follower project.
-            The goal is to create an autonomous convoy of five Jackal robots, such as the one seen above, that can navigate
+            Autonomous convoy of five Jackal robots, such as the one seen above, that can navigate
             to a destination while maintaining a safe distance between the vehicles and avoiding obstacles.
           </div>
         </div>
       </div>
       <div className='left-project'>
-        <img src='./niryo.png' className='bg-img'/>
-        <img src='./mobile-niryo.png' className='mobile-bg-img'/>
+        <img src='./niryo.png' className='bg-img' loading='lazy'/>
+        <img src='./mobile-niryo.png' className='mobile-bg-img' loading='lazy'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>Niryo Ned</div>
         <div className='left-proj-desc'>
-        This project has mainly educational as well as outreach purposes. We create demonstrations that could be easily
+        Niryo Ned has educational as well as outreach purposes. We create demonstrations that could be easily
         replicated by prospective students visiting our lab and inspire the next generation of roboticists.
         </div>
         </div>
       </div>
       <div className='right-project'>
-        <img src='./cannon.png' className='bg-img'/>
-        <img src='./mobile-cannon.png' className='mobile-bg-img'/>
+        <img src='./cannon.png' className='bg-img' loading='lazy'/>
+        <img src='./mobile-cannon.png' className='mobile-bg-img' loading='lazy'/>
         <div className='right-proj-cont'>
           <div className='right-proj-head'>T-Shirt Cannon</div>
           <div className='right-proj-desc'>
-            The focus of this project is to create a robot that will be able to shoot t-shirts into the crowd at the various events
+            A robot that will be able to shoot t-shirts into the crowd at the various events
             happening on Michigan Tech's campus (hockey, football, etc.). The robot's primary advantage will be the remote operation and
             release. 
           </div>
         </div>
       </div>
       <div className='left-project'>
-        <img src='./zumo.png' className='bg-img'/>
-        <img src='./mobile-zumo.png' className='mobile-bg-img'/>
+        <img src='./zumo.png' className='bg-img' loading='lazy'/>
+        <img src='./mobile-zumo.png' className='mobile-bg-img' loading='lazy'/>
         <div className='left-proj-cont'>
           <div className='left-proj-head'>Aurora Minor - Zumo</div>
         <div className='left-proj-desc'>
@@ -150,40 +149,6 @@ export default function Home() {
         </div>
       </div>
       <div className='footer-spacing-fix'></div>
-      {/*
-      <div className='projects-container'>
-        <div className='project-grid'>
-          <div className='project-content'>
-            <img className='project' src='./autodrive2.png'/>
-            <h6>AutoDrive II</h6>
-          </div>
-          <div className='project-content'>
-            <img className='project' src='./rov.png'/>
-            <h6>Underwater ROV</h6>
-          </div>
-          <div className='project-content'>
-            <img className='project' src='./zumo.png'/>
-            <h6>Aurora Minor</h6>
-          </div>
-          <div className='project-content'>
-            <img className='project' src='./borealis.png'/>
-            <h6>AutoDrive I</h6>
-          </div>
-          <div className='project-content'>
-            <img className='project' src='./jackal.png'/>
-            <h6>GVSC Leader-Follower</h6>
-          </div>
-          <div className='project-content'>
-            <img className='project' src='./niryo.png'/>
-            <h6>Niryo Ned</h6>
-          </div>
-          <div className='project-content'>
-            <img className='project' src='./cannon.png'/>
-            <h6>T-Shirt Cannon</h6>
-          </div>
-        </div>
-      </div>
-      */}
       <div className='footer'>
         <div className='footer-container'>
           <div className='footer-explore'>

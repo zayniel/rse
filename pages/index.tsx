@@ -47,14 +47,16 @@ export default function Home() {
       <NavBar/>
       <Slideshow/>
       <div className='main-container'>
+        <div>
         <div className='video-container'>
         <iframe 
           src="https://www.youtube.com/embed/f-c_Q8Ztvnw" 
           title="Autodrive Challenge II Year 2 Highlights" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowFullScreen
-          style={{height: '18vw', width: '32vw'}}
+          style={{ height: '100%', width: '100%' }}
         />
+        </div>
         </div>
         <div className='bio-container'>
           <h4><b>Who we are</b></h4>
