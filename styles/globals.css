@@ -340,14 +340,15 @@ body {
   }
 
   .left-proj-head {
-    font-size: 9vw;
-    margin-bottom: .5vw;
+    font-size: 10vw;
+    margin-bottom: 1vw;
     text-align: center;
+    font-weight: bold;
   }
 
   .left-proj-desc {
     font-family: 'Blinker';
-    font-size: 4.5vw;
+    font-size: 5.5vw;
     text-align: left;
   }
 
@@ -366,14 +367,15 @@ body {
   }
 
   .right-proj-head {
-    font-size: 9vw;
-    margin-bottom: .5vw;
+    font-size: 10vw;
+    margin-bottom: 1vw;
     text-align: center;
+    font-weight: bold;
   }
 
   .right-proj-desc {
     font-family: 'Blinker';
-    font-size: 4.5vw;
+    font-size: 5.5vw;
     text-align: left;
   }
 

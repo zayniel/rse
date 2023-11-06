@@ -142,7 +142,7 @@ export default function Home() {
         <img src='./zumo.png' className='bg-img' loading='lazy'/>
         <img src='./mobile-zumo.png' className='mobile-bg-img' loading='lazy'/>
         <div className='left-proj-cont'>
-          <div className='left-proj-head'>Aurora Minor - Zumo</div>
+          <div className='left-proj-head'>Aurora Minor Zumo</div>
         <div className='left-proj-desc'>
         Each new member of our enterprise has a chance to show off their creativity and learn crucial skills while working with the Zumo robot during their first month at RSE. Completed projects enter the competition where we award the most innovative and interesting designs!
         </div>
