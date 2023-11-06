@@ -65,7 +65,7 @@ export default function Home() {
         driving passenger vehicle. 
         <br></br><br></br>
         <a href='/autodrive'>
-        See AutoDrive II page for more information >>
+        See AutoDrive II page for more information
         </a>
         {/*
         At RSE we split the competition goals between several teams that 
