@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is an informational website for the Robotics Systems Enterprise at Michigan Technological University.
