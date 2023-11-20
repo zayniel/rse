@@ -53,7 +53,7 @@ export default function Home() {
           <hr className='new2'></hr>
         </div>
         <div className='contact-form'>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-M1ZPwutLSLaCP-w4aQAMw_HXb2VzfRxbaxhwYDWpszY9Ow/viewform?embedded=true" style={{height: '80vw', width: '50vw'}}>Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-M1ZPwutLSLaCP-w4aQAMw_HXb2VzfRxbaxhwYDWpszY9Ow/viewform?embedded=true" style={{height: '70vw', width: '100vw'}}>Loading…</iframe>
         </div>
       </div>
       <div className='footer'>
