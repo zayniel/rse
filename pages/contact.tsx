@@ -43,7 +43,7 @@ export default function Home() {
       <LightMode>
       <NavBar/>
       <div className='image-container'>
-        <img className='image' src='./autodrive.jpg'></img>
+        <img className='image' src='./contact_photo.jpg'></img>
       </div>
       <div className='main-container'>
         <div className='contact-container'>
@@ -51,9 +51,10 @@ export default function Home() {
           <hr className='new1'></hr>
           If you have any questions about joining the enterprise or would like more information, please fill out the contact form and we will get back to you as soon as possible.
           <hr className='new2'></hr>
+          <img className='contact-logo' src='./logo.png'></img>
         </div>
-        <div className='contact-form'>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-M1ZPwutLSLaCP-w4aQAMw_HXb2VzfRxbaxhwYDWpszY9Ow/viewform?embedded=true" style={{height: '70vw', width: '100vw'}}>Loading…</iframe>
+        <div>
+          <iframe id='iframe2' src="https://docs.google.com/forms/d/e/1FAIpQLSf-M1ZPwutLSLaCP-w4aQAMw_HXb2VzfRxbaxhwYDWpszY9Ow/viewform?embedded=true" /*style={{height: '70vw', width: '100vw'}}*/>Loading…</iframe>
         </div>
       </div>
       <div className='footer'>
