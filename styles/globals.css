@@ -402,6 +402,15 @@ body {
     width: 0;
     visibility: hidden;
   }
+
+  .card {
+    background-color: gainsboro;
+    color: black;
+    padding: 2vw;
+    height: 40vh;
+  }
+
+  .cards { grid-template-columns: repeat(1, 1fr); }
 }
 
 /* For Desktop */
@@ -833,6 +842,28 @@ body {
     margin-left: 5vw;
     width: 25vw;
   }
+
+  .card {
+    background-color: whitesmoke;
+    color: black;
+    padding: 1rem;
+    height: 20vw;
+    box-shadow: 0px 5px 10px gray;
+    border-radius: 10px;
+  }
+
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
 }
 
 .slider-wrapper {
