@@ -46,7 +46,7 @@ export default function Home() {
       <LightMode>
       <NavBar/>
       <div className='image-container'>
-        <img className='image' src='./teams.jpg'></img>
+        <img className='image' src='./teams-1.jpg'></img>
       </div>
       <div className='main-container'>
         <div className='bio-container'>
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </div>
         <div className='copyright'>
-            © 2023 Michigan Technological University
+            © 2023 Michigan Technological University • Designed by Zayne Pepin
         </div>
       </div>
       </LightMode>

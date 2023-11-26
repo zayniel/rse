@@ -102,7 +102,7 @@ export default function Home() {
           </div>
         </div>
         <div className='copyright'>
-            © 2023 Michigan Technological University
+            © 2023 Michigan Technological University • Designed by Zayne Pepin
         </div>
       </div>
       </LightMode>
