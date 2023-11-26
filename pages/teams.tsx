@@ -81,28 +81,28 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img className='card-img' src='./controls.png' alt='controls-pic'/>
+          <img className='card-img' src='./controls.jpg' alt='controls-pic'/>
           <div className='card-container'>
             <h4><b>Controls</b></h4>
             <p>Implement a control system which turns commands from other systems into real vehicle actions</p>
           </div>
         </div>
         <div className="card">
-          <img className='card-img' src='./sim-team.png' alt='sim-pic'/>
+          <img className='card-img' src='./sim-team.jpg' alt='sim-pic'/>
           <div className='card-container'>
             <h4><b>Simulation</b></h4>
             <p>Design and simulate real world scenarios to provide insight about overall system functionality</p>
           </div>
         </div>
         <div className="card">
-          <img className='card-img' src='./congestion-team.png' alt='congestion-pic'/>
+          <img className='card-img' src='./congestion-team.jpg' alt='congestion-pic'/>
           <div className='card-container'>
             <h4><b>Congestion</b></h4>
             <p>Research and innovate solutions for areas that experience high levels of traffic congestion</p>
           </div>
         </div>
         <div className="card">
-          <img className='card-img' src='./accessibility.png' alt='accessibility-pic'/>
+          <img className='card-img' src='./accessibility.jpg' alt='accessibility-pic'/>
           <div className='card-container'>
             <h4><b>Accessibility</b></h4>
             <p>Research and innovate solutions for common automotive accessibility issues</p>
