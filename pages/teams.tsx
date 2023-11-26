@@ -51,19 +51,63 @@ export default function Home() {
       <div className='main-container'>
         <div className='bio-container'>
           <h4><b>Teams</b></h4>
-          <hr className='new1'></hr>
-          <p>The Robotic Systems Enterprise is made up of various sub teams which work in parallel to complete large scale goals.</p>
+          <hr className='new9'></hr>
+          <p>The Robotic Systems Enterprise is made up of various teams which work in parallel to achieve large scale objectives.
+            These teams, focusing on mechanical, electrical, software engineering, autonomy, navigation, machine learning, integration, testing, and interfacing collaborate to provide robotic solutions for the automotive industry.
+          </p>
           <hr className='new2'></hr>
         </div>
       </div>
       <div className="cards">
-        <div className="card">Build</div>
-        <div className="card">Perception</div>
-        <div className="card">Mapping & Planning</div>
-        <div className="card">Controls</div>
-        <div className="card">Simulation</div>
-        <div className="card">Innovation: Congestion</div>
-        <div className="card">Innovation: Accessibility</div>
+        <div className="card">
+          <img className='card-img' src='./build-team.jpg' alt='build-pic'/>
+          <div className='card-container'>
+            <h4><b>Build</b></h4>
+            <p>Design and construct sophisticated and organized housing units for system components</p>
+          </div>
+        </div>
+        <div className="card">
+          <img className='card-img' src='./perception-team.jpg' alt='perception-pic'/>
+          <div className='card-container'>
+            <h4><b>Perception</b></h4>
+            <p>Integrate visual and spatial sensors to gather data and understand surrounding environments</p>
+          </div>
+        </div>
+        <div className="card">
+          <img className='card-img' src='./mapping-planning.png' alt='mapping-planning-pic'/>
+          <div className='card-container'>
+            <h4><b>Mapping/Planning</b></h4>
+            <p>Design and implement intelligent autonomous decision making and route planning</p>
+          </div>
+        </div>
+        <div className="card">
+          <img className='card-img' src='./controls.png' alt='controls-pic'/>
+          <div className='card-container'>
+            <h4><b>Controls</b></h4>
+            <p>Implement a control system which turns commands from other systems into real vehicle actions</p>
+          </div>
+        </div>
+        <div className="card">
+          <img className='card-img' src='./sim-team.png' alt='sim-pic'/>
+          <div className='card-container'>
+            <h4><b>Simulation</b></h4>
+            <p>Design and simulate real world scenarios to provide insight about overall system functionality</p>
+          </div>
+        </div>
+        <div className="card">
+          <img className='card-img' src='./congestion-team.png' alt='congestion-pic'/>
+          <div className='card-container'>
+            <h4><b>Congestion</b></h4>
+            <p>Research and innovate solutions for areas that experience high levels of traffic congestion</p>
+          </div>
+        </div>
+        <div className="card">
+          <img className='card-img' src='./accessibility.png' alt='accessibility-pic'/>
+          <div className='card-container'>
+            <h4><b>Accessibility</b></h4>
+            <p>Research and innovate solutions for common automotive accessibility issues</p>
+          </div>
+        </div>
       </div>
       <div className='footer'>
         <div className='footer-container'>
